@@ -42,5 +42,9 @@ public class AccountController {
 		}
 		return response;
 	}
+	@GetMapping("/")
+	public String test(){
+		return "This string from backend";
+	}
 
 }
